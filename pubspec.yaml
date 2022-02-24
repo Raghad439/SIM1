@@ -29,13 +29,14 @@ environment:
 dependencies:
   cloud_firestore: ^3.1.8
   firebase_auth: ^3.3.7
-  firebase_core: ^1.12.0
-  cupertino_icons: ^1.0.2
-
-
-  flutter:
-  sdk: flutter
+  firebase_core: ^1.13.0
+  cupertino_icons: ^1.0.4
   fluttertoast: ^8.0.8
+
+
+flutter:
+sdk: flutter
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -60,11 +61,12 @@ dev_dependencies:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
+  #uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-  - assets/logo.png
+assets:
+    - assets/logo.png
+
 
 
 
